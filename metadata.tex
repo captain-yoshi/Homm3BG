@@ -1,12 +1,16 @@
 % Set page size and margins
+% https://tex.stackexchange.com/a/178665
 \usepackage[
-  a4paper,
-  top=2cm,
-  bottom=3cm,
-  left=2cm,
-  right=2cm,
-  marginparwidth=1.75cm,
-  footskip=2.05cm,
+  papersize={216mm,303mm},
+  layouthoffset=3mm,
+  layoutvoffset=3mm,
+  layout=a4paper,
+  top=2.7cm,    % Original 2.4cm
+  bottom=3.7cm, % Original 3.4cm
+  left=2.7cm,   % Original 2.4cm
+  right=2.7cm,  % Original 2.4cm
+  marginparwidth=2.05cm, % Original 1.75cm
+  footskip=2.45cm, % Original 2.45cm
 ]{geometry}
 
 % Useful packages
@@ -302,12 +306,12 @@
 \iftoggle{printable}{
   \newgeometry{
     twoside,
-    top=2cm,
-    bottom=3cm,
-    left=2.5cm,
-    right=1.5cm,
-    marginparwidth=1.75cm,
-    footskip=2.05cm,
+    top=2.3cm,  %2cm
+    bottom=3.3cm, %3cm
+    left=2.8cm, %2.5cm
+    right=1.8cm, %1.5cm
+    marginparwidth=1.75cm, %1.75cm
+    footskip=2.05cm, %2.05cm
   }
 }{}
 
