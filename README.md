@@ -8,7 +8,7 @@
 </div>
 
 **Join us [on Discord](https://discord.gg/khV8Ckw8RD) to help with translating or just to get in touch!**
-
+test
 <table>
     <thead>
         <tr>
